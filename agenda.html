@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./agenda.css"/>
+  <title>Agenda de Contatos</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="cabecalho">
+    <header>
+      <h1>Agenda de Contatos</h1>
+    </header>
+    </div>
+
+    
+    <form id="form-atividade">
+      <input id="nome-contato" type="text" required placeholder="Nome">
+      <input id="numero-contato" type="number" required placeholder="Número para contato"/>
+      <button type="submit" onclick="">Cadastrar</button>
+    </form>
+    
+
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>Nome de Contato</th>
+          <th>Número de Contato</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr> <!--- Depois revisar o display none -->
+          <td>-----</td>
+          <td>-----</td>
+        </tr>
+      </tbody>
+      
+    </table>
+    </div>
+</body>
+<script src="./agenda.js"></script>
+</html>
