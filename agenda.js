@@ -5,8 +5,7 @@ form.addEventListener('submit', function(e) {
 
   e.preventDefault;
   adicionaLinha();
-  linha();
-})
+});
 
 
 function adicionaLinha(){
@@ -29,12 +28,6 @@ function adicionaLinha(){
     corpoTabela.innerHTML = linhas;
 
 
-    
+    form.reset();
   }
 
-
-
-function linha(){
-  const corpoTabela = document.querySelector('tbody');
-  corpoTabela.innerHTML = linhas;
-}
